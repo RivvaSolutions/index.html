@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivva AI Solutions | Optimize Leads & Efficiency</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000; /* Pure Black background */
+        }
+        /* Custom CSS for logo container to ensure consistent display */
+        .header-logo-container img {
+            height: 48px; /* Explicit height for the logo (h-12 equivalent) */
+            width: auto; /* Maintain aspect ratio */
+            max-width: 100%; /* Ensure it doesn't overflow its parent */
+            display: block; /* Remove extra space below inline elements */
+            margin: 0; /* Align left within its container */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 p-4 shadow-lg rounded-b-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <!-- Site Title/Logo -->
+            <div class="mb-2 md:mb-0 header-logo-container flex-shrink-0">
+                <a href="#" class="block hover:opacity-80 transition-opacity">
+                    <!-- NEW SVG Logo Placeholder - Scaled for clear visibility at 48px height, no overlap -->
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='48' viewBox='0 0 240 48'%3E%3C!-- Background for spacing/visibility, if needed, otherwise transparent --%3E%3Crect x='0' y='0' width='240' height='48' fill='transparent'/%3E%3C!-- Icon: two rising bars in orange-gold --%3E%3Crect x='7.5' y='18' width='6' height='12' fill='%23D97706' rx='1.5' ry='1.5'/%3E%3Crect x='21' y='6' width='6' height='24' fill='%23D97706' rx='1.5' ry='1.5'/%3E%3C!-- Text: Rivva in black --%3E%3Ctext x='45' y='20' font-family='Inter, sans-serif' font-size='24' font-weight='bold' fill='%23000000'%3ERivva%3C/text%3E%3C!-- Text: AI Solutions in orange-gold, on a new line, no overlap --%3E%3Ctext x='45' y='40' font-family='Inter, sans-serif' font-size='14' fill='%23D97706'%3EAI Solutions%3C/text%3E%3C/svg%3E" alt="Rivva AI Solutions Logo">
+                </a>
+            </div>
+            <!-- Navigation Menu -->
+            <nav class="w-full md:w-auto mt-4 md:mt-0">
+                <ul class="flex flex-col md:flex-row justify-center space-x-4 md:space-x-8 text-lg">
+                    <li><a href="#home" class="underline hover:text-gray-700 transition-colors px-3 py-2 rounded-md block text-center">Home</a></li>
+                    <li><a href="#services" class="underline hover:text-gray-700 transition-colors px-3 py-2 rounded-md block text-center">Services</a></li>
+                    <li><a href="#how-it-works" class="underline hover:text-gray-700 transition-colors px-3 py-2 rounded-md block text-center leading-tight">How it<br>Works</a></li>
+                    <li><a href="#about" class="underline hover:text-gray-700 transition-colors px-3 py-2 rounded-md block text-center leading-tight">About<br>Us</a></li>
+                    <!-- Testimonials link explicitly removed from header navigation -->
+                    <li><a href="#contact" class="underline hover:text-gray-700 transition-colors px-3 py-2 rounded-md block text-center">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-black p-8 md:p-12 rounded-xl shadow-lg mb-8 text-center max-w-5xl mx-auto mt-8">
+        <h2 class="text-5xl font-extrabold text-white mb-6 leading-tight">
+            Stop Missing Leads. <span class="text-yellow-600">Start Booking 24/7.</span>
+        </h2>
+        <p class="text-gray-300 text-xl leading-relaxed mb-8 max-w-3xl mx-auto">
+            We help **service companies** like yours capture every customer opportunity, even after hours, with smart AI chatbots and seamless online booking systems.
+        </p>
+        <div class="text-center">
+            <a href="#contact" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white text-xl font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+                Get a Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <main id="services" class="flex-grow container mx-auto p-6 md:p-8">
+        <section class="bg-black p-8 rounded-xl shadow-lg mb-8">
+            <h2 class="text-4xl font-extrabold text-white mb-10 text-center">Our Solutions for Your Business</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1: 24/7 AI Chatbots -->
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-white mb-3 underline">Around-the-Clock AI Chatbots</h3>
+                    <p class="text-gray-400 text-lg">
+                        Imagine a friendly, knowledgeable assistant on your website, ready 24/7 to answer customer questions, provide quotes, and filter out unqualified leads. Our AI chatbots ensure you <span class="font-bold text-yellow-600">never miss a potential client</span>, even when your office is closed or your staff is busy.
+                    </p>
+                </div>
+
+                <!-- Service 2: Automated Booking Links -->
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-white mb-3 underline">Seamless Online Appointment Booking</h3>
+                    <p class="text-gray-400 text-lg">
+                        Empower your customers to book service calls or consultations directly through your website, anytime. Our integrated "Book Now" links sync with your existing calendar, <span class="font-bold text-yellow-600">reducing phone tag and freeing up valuable administrative time</span> for your team.
+                    </p>
+                </div>
+
+                <!-- Service 3: Optimized Online Presence -->
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-white mb-3 underline">Enhanced Google & Online Visibility</h3>
+                    <p class="text-gray-400 text-lg">
+                        Beyond chatbots, we help optimize your Google My Business profile and create effective landing pages to ensure your company is easily found online. <span class="font-bold text-yellow-600">More exposure means more potential customers</span> discovering your services when they need them most.
+                    </p>
+                </div>
+
+                <!-- Service 4: Custom Website Design & Optimization -->
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-white mb-3 underline">Custom Website Design & Optimization</h3>
+                    <p class="text-gray-400 text-lg">
+                        Your website is your digital storefront. We design modern, responsive websites that not only look professional but are also optimized to attract visitors and convert them into valuable leads, working seamlessly with your new AI tools.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="bg-black p-8 rounded-xl shadow-lg mb-8">
+            <h2 class="text-4xl font-extrabold text-white mb-6 text-center underline">Our Commitment to Your Success</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-300 leading-relaxed">
+                <p class="mb-4">
+                    At Rivva AI Solutions, we're not just about technology; we're about <span class="font-bold text-yellow-600">solving real problems for local businesses.</span> We understand the unique challenges service companies face – from missed calls to overwhelmed staff. That's why we're dedicated to providing personalized AI solutions that truly integrate with your operations.
+                </p>
+                <p class="mb-4">
+                    Unlike larger, impersonal agencies, we pride ourselves on building strong, local relationships. When you work with us, you're not just another number; you're a partner. We take the time to understand your specific needs, ensuring the AI tools we implement genuinely save you time, make you money, and reflect the friendly personality of your company.
+                </p>
+                <p>
+                    Our mission is to help local businesses thrive in the digital age, ensuring your customers always feel connected and valued, no matter the hour.
+                </p>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="bg-gray-200 text-gray-900 p-8 rounded-xl shadow-lg mb-8">
+            <h2 class="text-4xl font-extrabold mb-6 text-center underline">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-300 p-6 rounded-lg shadow-md">
+                    <p class="italic text-lg mb-4">"Implementing Rivva AI Solutions has been a game-changer for our service business. We used to miss so many calls after hours, but now our chatbot captures every inquiry and even schedules estimates for us. It's like having an extra team member working 24/7, and our lead volume has increased significantly!"</p>
+                    <p class="font-semibold">- Mark T., Owner, A Local Plumbing Service</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-300 p-6 rounded-lg shadow-md">
+                    <p class="italic text-lg mb-4">"The online booking system from Rivva AI Solutions has streamlined our scheduling beyond what we thought was possible. Our clients love the convenience, and our office staff has been freed up to focus on more complex tasks. Their personalized approach made the transition incredibly smooth. Highly recommend!"</p>
+                    <p class="font-semibold">- Sarah L., Operations Manager, A Leading Service Provider</p>
+                </div>
+            </div>
+            <p class="text-center mt-6 text-lg">
+                <span class="font-bold">Ready to see these results for your business? Get in touch!</span>
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-black p-8 rounded-xl shadow-lg mb-8">
+            <h2 class="text-4xl font-extrabold text-white mb-6 text-center">Let's Connect & Grow Your Business</h2>
+            <div class="max-w-xl mx-auto">
+                <p class="text-lg text-gray-300 mb-6 text-center">
+                    Ready to stop missing out on leads and streamline your operations? Fill out the form below or reach out directly to learn more.
+                </p>
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-lg font-medium text-gray-300 mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full p-3 border border-gray-600 rounded-md shadow-sm focus:ring-gray-300 focus:border-gray-300 sm:text-lg" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label for="company" class="block text-lg font-medium text-gray-300 mb-2">Company Name</label>
+                        <input type="text" id="company" name="company" class="mt-1 block w-full p-3 border border-gray-600 rounded-md shadow-sm focus:ring-gray-300 focus:border-gray-300 sm:text-lg" placeholder="ABC Solutions">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-lg font-medium text-gray-300 mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full p-3 border border-gray-600 rounded-md shadow-sm focus:ring-gray-300 focus:border-gray-300 sm:text-lg" placeholder="john.doe@example.com">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-lg font-medium text-gray-300 mb-2">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="mt-1 block w-full p-3 border border-gray-600 rounded-md shadow-sm focus:ring-gray-300 focus:border-gray-300 sm:text-lg" placeholder="(123) 456-7890">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-lg font-medium text-gray-300 mb-2">How can we help your business?</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full p-3 border border-gray-600 rounded-md shadow-sm focus:ring-gray-300 focus:border-gray-300 sm:text-lg" placeholder="Tell us about your challenges..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" id="submitButton" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white text-xl font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+                            Send Message ✨
+                        </button>
+                    </div>
+                    <div id="aiResponse" class="mt-6 p-4 rounded-lg bg-gray-900 text-gray-300 text-center hidden">
+                        <p class="font-semibold text-yellow-600 mb-2">AI's Quick Take:</p>
+                        <p id="aiResponseText"></p>
+                        <div id="aiLoading" class="hidden">
+                            <svg class="animate-spin h-6 w-6 text-yellow-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            <p>Analyzing your message with AI...</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-200 text-gray-900 p-6 mt-8 rounded-t-lg">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2025 Rivva AI Solutions. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="#" class="hover:text-yellow-600 transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-yellow-600 transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const messageInput = document.getElementById('message');
+            const aiResponseDiv = document.getElementById('aiResponse');
+            const aiResponseText = document.getElementById('aiResponseText');
+            const aiLoading = document.getElementById('aiLoading');
+            const submitButton = document.getElementById('submitButton');
+
+            // Show loading indicator and hide previous response
+            aiResponseDiv.classList.remove('hidden');
+            aiResponseText.innerHTML = ''; // Clear previous text
+            aiLoading.classList.remove('hidden');
+            submitButton.disabled = true; // Disable button during processing
+
+            const userMessage = messageInput.value;
+            const prompt = `Analyze the following message from a potential client for Rivva AI Solutions (an AI company helping service businesses with lead generation, 24/7 chatbots, automated booking, and website optimization). Provide a brief, positive, and action-oriented acknowledgment (under 50 words) that shows understanding of their core need and suggests a clear next step (e.g., "We'll be in touch soon to discuss how our AI chatbots can help your business streamline lead capture!").\n\nClient Message: "${userMessage}"`;
+
+            let chatHistory = [];
+            chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+            const payload = { contents: chatHistory };
+            const apiKey = ""; // Canvas will provide this API key at runtime
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+            let retries = 0;
+            const maxRetries = 3;
+            let delay = 1000; // 1 second
+
+            while (retries < maxRetries) {
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        if (response.status === 429) { // Too Many Requests
+                            retries++;
+                            await new Promise(res => setTimeout(res, delay));
+                            delay *= 2; // Exponential backoff
+                            continue; // Retry
+                        }
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const result = await response.json();
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        const aiGeneratedText = result.candidates[0].content.parts[0].text;
+                        aiResponseText.textContent = aiGeneratedText;
+                    } else {
+                        aiResponseText.textContent = "Thank you for your message! We'll get back to you shortly.";
+                    }
+                    break; // Exit loop on success
+                } catch (error) {
+                    console.error('Error calling Gemini API:', error);
+                    aiResponseText.textContent = "There was an error processing your request. We'll still get back to you soon!";
+                    break; // Exit loop on error, don't retry for non-429 errors
+                } finally {
+                    aiLoading.classList.add('hidden'); // Hide loading indicator
+                    submitButton.disabled = false; // Re-enable button
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
